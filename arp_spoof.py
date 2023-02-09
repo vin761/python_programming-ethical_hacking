@@ -27,8 +27,8 @@ def restore(destination_ip, source_ip):
     scapy.send(packet, count=4, verbose=False)
 
 
-target_ip = "10.0.2.15"
-gateway_ip = "10.0.2.1"
+target_ip = "0.0.0.0"
+gateway_ip = "0.0.0.0"
 
 try:
     sent_packets_count = 0
